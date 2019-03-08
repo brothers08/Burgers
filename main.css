@@ -13,7 +13,7 @@
   .cover {
     background-image: url('images/cover.jpg');
     height: 60%;
-   
+    background-attachment: fixed;
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,10 +79,46 @@
     margin-top: 3%;
   }
 
-  .garlic-fries1 {
-    content:url("images/garlicfries.jpg");
+  .home-image1 {
+    content: url("images/garlicfries.jpg");
+    visibility: hidden;
     width: 30%;
     margin-top: 5%;
     margin-left: 5%;
+    float: left;
+  }
+
+  .home-image2 {
+    content: url("images/skinnyfries.jpg");
+    visibility: hidden;
+    width: 40%;
+    margin-top: 12%;
+    margin-left: 5%;
+    float: right;
+  }
+
+  .fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+  @keyframes animat_show{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+  .column {
+    visibility: hidden;
+    margin-left: 35%;
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .column2 {
+    visibility: hidden;
+    margin-right: 40%;
+    margin-top: 20%;
+    text-align: center;
   }
 }
