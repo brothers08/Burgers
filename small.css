@@ -32,7 +32,7 @@
       position: relative;
   }
       
-  .top, .menuBar {
+  .top {
       display: none;
   }
 
