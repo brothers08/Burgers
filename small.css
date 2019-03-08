@@ -1,0 +1,176 @@
+@media screen and (max-width: 415px){
+  html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bolder;
+      margin: auto;
+  }
+
+  .menuBarButton {
+      position: relative;
+      width: 5%;
+      display: block;
+      float: left;
+      cursor: pointer;
+      margin-left: 4%;
+  }
+
+  .smallTitle {
+      display: block;
+      text-align: center;
+      padding-right: 10%;
+  }
+    
+  .cover {
+      background-image: url('images/cover.jpg');
+      height: 100%;
+      width: 100%;
+      background-attachment: scroll;
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+      
+  .top, .menuBar {
+      display: none;
+  }
+
+  a, .cover a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+  }
+
+  a:link, .cover a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited, .cover a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .cover a {
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    top: 75%;
+    padding: 5%;
+    font-weight: bold;
+  }
+
+  .cover a:hover {
+    font-size: 105%;
+  }
+
+  h4 {
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .garlic-fries1 {
+    content:url("images/garlicfries.jpg");
+    
+  }
+}
+
+@media screen and (max-width: 1100px){
+    html, body {
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        margin: auto;
+    }
+
+    .menuBarButton {
+        position: relative;
+        width: 5%;
+        display: block;
+        float: left;
+        cursor: pointer;
+        margin-left: 4%;
+    }
+
+    .smallTitle {
+        display: block;
+        text-align: center;
+        padding-right: 10%;
+    }
+      
+    /*Home Burger Image*/
+    .cover {
+        height: 40%;
+        width: 100%;
+        background-image: url('images/cover.jpg');
+        background-attachment: scroll;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+        
+    .top, .menuBar {
+        display: none;
+    }
+
+    a, .cover a{
+      font-weight: normal;
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:link, .cover a:link {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:visited, .cover a:visited {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:hover {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    /*Button over Home Burger Image*/
+    .cover a {
+      background-color: white;
+      width: 15%;
+      position: absolute;
+      text-align: center;
+      left: 40%;
+      top: 37%;
+      padding: 2.5%;
+      font-weight: bold;
+    }
+  
+    .cover a:hover {
+      font-size: 105%;
+    }
+
+    h4 {
+      text-align: center;
+      margin-top: 3%;
+    }
+  
+    .garlic-fries1 {
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+} 
