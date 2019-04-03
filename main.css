@@ -12,11 +12,6 @@
     display: none;
   }
 
-  .cover {
-    margin-bottom: 5%;
-    position: relative;
-  }
-
   /* Slideshow container */
   .slideshow-container {
     position: relative;
