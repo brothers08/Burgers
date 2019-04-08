@@ -61,3 +61,26 @@ $(window).scroll(function() {
       document.getElementById('column').style.visibility = 'visible';
       document.getElementById('column2').style.visibility = 'visible';
 });
+
+//Contact Form Validation
+function test() {
+  var firstName = document.getElementById("firstname").value;
+  var lastName = document.getElementById("lastname").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
+  if(firstName === "" || lastName === "" || email === "" || message === ""){
+    alert("Please fill in all fields");
+  }
+  else if(!validateEmail(email)){
+    alert("Please enter a valid email");
+  }
+  else{
+    alert("Thank You!");
+  }
+}
