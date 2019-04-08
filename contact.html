@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Billy's Burgers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="wide.css" rel="stylesheet" type="text/css">
+    <link href="small.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <!--Only Visible on Small Screens-->
+    <img id="menu-bar-button" class="menuBarButton" src="images/menu.png" alt="menu" />
+    <h2 class="smallTitle">Billy's Burgers</h2>
+    <!--Menu Bar-->
+    <div id="menu-bar" class="menuBar">
+    <h3><a>Menu</a></h3>
+    <h3><a>About</a></h3>
+    <h3><a>Contact</a></h3>
+    </div>
+
+    <!--Only Visible on Bigger Screens-->
+    <div id="header" class="top">
+    <h3 class="name">Billy's Burgers</h3>
+    <h3 class="links"><a href="menu.html">Menu</a></h3>
+    <h3 class="links"><a href="about.html">About</a></h3>
+    <h3><a href="contact.html">Contact</a></h3>
+    </div>
+
+      <form>
+          <h3>First Name: <input type="text" name="firstname" id="firstname" value=""></h3>
+          <h3>Last Name: <input type="text" name="lastname" id="lastname"></h3>
+          <h3>Email: <input type="email" name="email" id="email"></h3>
+          <h3>Enter your comments or questions below:</h3>
+          <textarea id="message" rows="10" cols="80"></textarea>
+          <button onclick="test()">Click</button>
+      </form>
+  </body>
+</html>
