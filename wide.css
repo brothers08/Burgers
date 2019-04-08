@@ -1,77 +1,177 @@
 @media screen and (min-width: 1501px){
-  html, body {
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    margin: auto;
-  }
+    html, body {
+      height: 100%;
+      font-family: boomer;
+      font-weight: normal;
+      margin: auto;
+    }
 
-  .smallTitle, .menuBar, .menuBarButton {
-    display: none;
-  }
+    @font-face {
+      font-family: boomer;
+      src: url(boomer/boomer.otf);
+    }
+  
+    /* Hide Mobile Menu */
+    .smallTitle, .menuBar, .menuBarButton {
+      display: none;
+    }
 
-  .cover {
-    background-image: url('images/cover.jpg');
-    height: 55%;
-    background-attachment: fixed;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    position: relative;
-    opacity: 0.8;
-  }
-
-  .top h3 {
-    font-weight: bold;
-    display: inline;
-    font-size: 145%;
-  }
-
-  .name {
-    padding-right: 45%;
-    padding-left: 2%;
-  }
+    /* Slideshow container */
+    .slideshow-container {
+        position: relative;
+        
+    }
     
-  .links {
-    padding-right: 10%;
-  }
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+        width: 100%;
+        height: 675px;
+    }
+    
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {opacity: .3} 
+        to {opacity: 1}
+    }
+    
+    @keyframes fade {
+        from {opacity: .3} 
+        to {opacity: 1}
+    }
+  
+    /* Header */
+    .top {
+      margin-top: .5%;
+    }
 
-  a, .cover a{
-    font-weight: normal;
-    text-decoration: none;
-    color: black;
-  }
+    .top h3 {
+      display: inline;
+      font-size: 145%;
+    }
+  
+    .name {
+      padding-right: 40%;
+      padding-left: 2%;
+    }
+      
+    .links {
+      padding-right: 5%
+    }
+    /**/
 
-  a:link, .cover a:link {
-    text-decoration: none;
-    color: black;
-  }
+    .first-text {
+      text-align: center;
+      padding: 1%;
+    }
 
-  a:visited, .cover a:visited {
-    text-decoration: none;
-    color: black;
-  }
+    .first-text h1 {
+      color: rgb(224,47,47);
+    }
+ 
+    a {
+      font-weight: lighter;
+      text-decoration: none;
+      color: black;
+      padding: 1%;
+      padding-bottom: .5%;
+    }
+  
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:visited {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:hover {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
 
-  a:hover {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
-  }
+    .menu-link a:hover {
+      color: rgb(224,47,47);
+    }
 
-  .cover a {
-    background-color: white;
-    width: 9%;
-    position: absolute;
-    text-align: center;
-    left: 43%;
-    top: 37%;
-    padding: 1.5%;
-    font-weight: bold;
-  }
+    .form-link a:hover {
+      color: #469C46;
+    }
 
-  .cover a:hover {
-    font-size: 105%;
+    .contact a:hover {
+      color: #469C9C;
+    }
+
+
+    /* Images and Text */
+    .column {
+      background-color: #469C46;
+      padding: 4%;
+      margin-top: 12%;
+      font-size: 123%;
+      font-weight: lighter;
+      margin-right: 3%;
+    }
+
+    .home-image2 {
+      margin-top: 15%;
+      margin-right: 3%;
+    }
+
+    .column2 {
+      background-color: #469C9C;
+      padding: 3%;
+      margin-top: 19%;
+      font-size: 120%;
+      font-weight: lighter;
+      margin-left: 5%;
+    }
+
+    footer {
+      background-color: #C0C0C0;
+      padding: .5%;
+      margin-top: 2%;
+    }
+
+    footer h4{
+      margin-left: 3%;
+    }
+
+    a.contact-link {
+      font-weight: bold;
+      margin-left: -1%;
+      color: #333333;
+      margin-right: -.5%;
+    }
+
+    footer a:hover {
+      color: black;
+    }
+
+    /* Bottom Menu */
+    .bottom-menu {
+      clear: both;
+      margin-top: 8%;
+      text-align: center;
+    }
+
+    .bottom-menu a {
+      background-color: rgb(224,47,47);
+      width: 10%;
+      padding: 1%;
+    }
+
+    .bottom-menu a:hover {
+      font-size: 110%;
+    }
   }
-}
