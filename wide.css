@@ -2,13 +2,13 @@
     html, body {
       height: 100%;
       font-family: boomer;
-      font-weight: normal;
       margin: auto;
     }
 
     @font-face {
       font-family: boomer;
-      src: url("boomer.ttf", format("TrueType"));
+      src: url("boomer.ttf" format("TrueType"));
+      font-weight: normal;
     }
   
     /* Hide Mobile Menu */
