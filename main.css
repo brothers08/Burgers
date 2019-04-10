@@ -10,7 +10,7 @@
    
    @font-face {
       font-family: boomer;
-      src: url(/boomer.ttf);
+      src: url(Burgers/boomer.ttf);
     }
   
     .smallTitle, .menuBar, .menuBarButton {
