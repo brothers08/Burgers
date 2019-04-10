@@ -7,7 +7,7 @@
 
     @font-face {
       font-family: boomer;
-      src: url("Burgers/boomer.ttf" format("TrueType"));
+      src: url("Burgers/fonts/boomer.ttf" format("TrueType"));
       font-weight: normal;
     }
   
