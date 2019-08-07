@@ -19,7 +19,7 @@
   
   @font-face {
     font-family: boomer;
-    src: url(boomer/boomer.ttf);
+    src: url(boomer.ttf);
     font-weight: normal;
   }
 
@@ -135,7 +135,7 @@
 
     @font-face {
         font-family: boomer;
-        src: url(boomer/boomer.ttf);
+        src: url(boomer.ttf);
         font-weight: normal;
       }
 
