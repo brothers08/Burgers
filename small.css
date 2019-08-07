@@ -1,7 +1,7 @@
 @media screen and (max-width: 415px){
   html, body {
       height: 100%;
-      font-family: 'Montserrat', sans-serif;
+      font-family: boomer;
       font-weight: bolder;
       margin: auto;
   }
@@ -17,25 +17,15 @@
   }
   
   @font-face {
-      font-family: boomer;
-      src: url("boomer.ttf");
-    }
+    font-family: boomer;
+    src: url(boomer/boomer.ttf);
+    font-weight: normal;
+  }
 
   .smallTitle {
       display: block;
       text-align: center;
       padding-right: 10%;
-  }
-    
-  .cover {
-      background-image: url('images/cover.jpg');
-      height: 100%;
-      width: 100%;
-      background-attachment: scroll;
-      background-position: center; 
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
   }
       
   .top {
@@ -65,19 +55,9 @@
     font-weight: bold;
   }
 
-  .cover a {
-    background-color: white;
-    width: 30%;
-    position: absolute;
-    text-align: center;
-    left: 30%;
-    top: 75%;
-    padding: 5%;
-    font-weight: bold;
-  }
-
-  .cover a:hover {
-    font-size: 105%;
+  .mySlides{
+    height: 10%;
+    width: 100%;
   }
 
   h4 {
@@ -94,10 +74,17 @@
 @media screen and (max-width: 1100px){
     html, body {
         height: 100%;
-        font-family: 'Montserrat', sans-serif;
+        max-width: 100%;
+        font-family: boomer;
         font-weight: bolder;
         margin: auto;
     }
+
+    @font-face {
+        font-family: boomer;
+        src: url(boomer/boomer.ttf);
+        font-weight: normal;
+      }
 
     .menuBarButton {
         position: relative;
@@ -116,8 +103,8 @@
       
     /*Home Burger Image*/
     .cover {
-        height: 40%;
-        width: 100%;
+        height: 100%;
+        width: auto;
         background-image: url('images/cover.jpg');
         background-attachment: scroll;
         background-position: center; 
