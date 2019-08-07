@@ -17,6 +17,10 @@
       visibility: visible;
   }
   
+  .menuBar {
+    display: none;
+  }
+  
   @font-face {
     font-family: boomer;
     src: url(boomer.ttf);
