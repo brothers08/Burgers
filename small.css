@@ -101,34 +101,27 @@
         padding-right: 10%;
     }
       
-    /*Home Burger Image*/
-    .cover {
-        height: 100%;
-        width: auto;
-        background-image: url('images/cover.jpg');
-        background-attachment: scroll;
-        background-position: center; 
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
+    .mySlides{
+        height: 10%;
+        width: 100%;
+      }
         
     .top {
         display: none;
     }
 
-    a, .cover a{
+    a {
       font-weight: normal;
       text-decoration: none;
       color: black;
     }
   
-    a:link, .cover a:link {
+    a:link {
       text-decoration: none;
       color: black;
     }
   
-    a:visited, .cover a:visited {
+    a:visited {
       text-decoration: none;
       color: black;
     }
@@ -138,22 +131,6 @@
       color: black;
       cursor: pointer;
       font-weight: bold;
-    }
-    
-    /*Button over Home Burger Image*/
-    .cover a {
-      background-color: white;
-      width: 15%;
-      position: absolute;
-      text-align: center;
-      left: 40%;
-      top: 37%;
-      padding: 2.5%;
-      font-weight: bold;
-    }
-  
-    .cover a:hover {
-      font-size: 105%;
     }
 
     h4 {
