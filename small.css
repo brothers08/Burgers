@@ -197,4 +197,56 @@
       margin-top: 5%;
       margin-left: 5%;
     }
+  
+  /*Homepage Text*/
+  .home-text {
+      display: none;
+  }
+
+  .hide-small {
+      display: none;
+  }
+
+  .first-text h1 {
+    color: rgb(224,47,47);
+  }
+
+  /* Bottom Menu */
+  .bottom-menu {
+    clear: both;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  .bottom-menu a {
+    background-color: #469C46;
+    width: 10%;
+    padding: 1%;
+  }
+
+  .bottom-menu a:hover {
+    font-size: 110%;
+  }
+
+  /*Footer*/
+  footer {
+    background-color: #C0C0C0;
+    padding: .5%;
+    margin-top: 2%;
+  }
+
+  footer h4{
+    margin-left: 3%;
+  }
+
+  a.contact-link {
+    font-weight: bold;
+    margin-left: -1%;
+    color: #333333;
+    margin-right: -.5%;
+  }
+
+  footer a:hover {
+    color: black;
+  }
 } 
