@@ -32,18 +32,18 @@
       display: none;
   }
 
-  a, .cover a{
+  a {
     font-weight: normal;
     text-decoration: none;
     color: black;
   }
 
-  a:link, .cover a:link {
+  a:link {
     text-decoration: none;
     color: black;
   }
 
-  a:visited, .cover a:visited {
+  a:visited {
     text-decoration: none;
     color: black;
   }
