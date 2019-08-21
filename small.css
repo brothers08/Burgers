@@ -151,6 +151,10 @@
         cursor: pointer;
         margin-left: 4%;
     }
+  
+    .menuBar {
+    text-align: center;
+    }
 
     .smallTitle {
         display: block;
