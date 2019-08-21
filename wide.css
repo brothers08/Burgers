@@ -114,6 +114,15 @@
 
 
     /* Images and Text */
+    .home-image1 {
+      content: url("images/garlicfries.jpg");
+      visibility: hidden;
+      width: 30%;
+      margin-top: 0%;
+      margin-left: 5%;
+      float: left;
+    }
+    
     .column {
       background-color: #469C46;
       padding: 4%;
