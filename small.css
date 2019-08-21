@@ -155,6 +155,10 @@
     .menuBar {
     text-align: center;
     }
+  
+  .menuLink {
+    margin-left: -5%;
+  }
 
     .smallTitle {
         display: block;
