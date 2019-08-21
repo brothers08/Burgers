@@ -180,7 +180,10 @@
       padding: 1%;
     }
 
+
     .bottom-menu a:hover {
       font-size: 110%;
     }
   }
+
+@media screen and (max-width: 1300px){
