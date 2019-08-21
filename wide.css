@@ -118,9 +118,9 @@
       content: url("images/garlicfries.jpg");
       visibility: hidden;
       width: 30%;
-      margin-top: 0%;
+      margin-top: -5%;
       margin-left: 5%;
-      float: right;
+      float: left;
     }
     
     .column {
