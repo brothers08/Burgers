@@ -19,7 +19,8 @@
     /* Slideshow container */
     .slideshow-container {
         position: relative;
-        
+        height: 15%;
+        width: 90%;
     }
     
     /* Hide the images by default */
