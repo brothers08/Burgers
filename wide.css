@@ -30,22 +30,20 @@
     }
     
     .top-right-menu {
-  position: absolute;
-  top: 8px;
-  right: 2px;
+        position: absolute;
+        padding-left: 20%;
+        padding-right: 5%;
         color: white;
 }
-        .top-right-res {
-  position: absolute;
-  top: 8px;
-  right: 20px;
-            color: white;
+    .top-right-res {
+        position: absolute;
+        padding-right: 5%;
+        color: white;
 }
-        .top-right-contact {
-  position: absolute;
-  top: 8px;
-            color: white;
-  right: 10px;
+    .top-right-contact {
+        position: absolute;
+        padding-right: 5%;
+        color:white;
 }
     
     /* Hide the images by default */
