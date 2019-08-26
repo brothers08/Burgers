@@ -20,6 +20,7 @@
     .slideshow-container {
         position: relative;
         color: white;
+        margin-top: -10%;
     }
     
     .top-left {
