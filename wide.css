@@ -231,7 +231,6 @@
 
     footer {
       background-color: #C0C0C0;
-      padding: .5%;
       margin-top: 2%;
       text-align: center;
     }
@@ -243,6 +242,7 @@
     a.contact-link {
       font-weight: bold;
       color: #333333;
+      margin-right: 0.5%;
     }
 
     footer a:hover {
