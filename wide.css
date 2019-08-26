@@ -166,10 +166,7 @@
     /*footer*/
     footer {
       background-color: #C0C0C0;
-      padding: .5%;
-      padding-left: 0%;
       margin-top: 2%;
-      text-align: center;
     }
 
     footer h4{
@@ -232,7 +229,6 @@
     footer {
       background-color: #C0C0C0;
       margin-top: 2%;
-      text-align: center;
     }
 
     footer h4{
