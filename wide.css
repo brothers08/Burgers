@@ -145,28 +145,7 @@
       font-weight: lighter;
       margin-left: 5%;
     }
-
-    footer {
-      background-color: #C0C0C0;
-      padding: .5%;
-      margin-top: 2%;
-    }
-
-    footer h4{
-      margin-left: 3%;
-    }
-
-    a.contact-link {
-      font-weight: bold;
-      margin-left: -1%;
-      color: #333333;
-      margin-right: -.5%;
-    }
-
-    footer a:hover {
-      color: black;
-    }
-
+    
     /* Bottom Menu */
     .bottom-menu {
       clear: both;
@@ -182,6 +161,27 @@
 
     .bottom-menu a:hover {
       font-size: 110%;
+    }
+
+    /*footer*/
+    footer {
+      background-color: #C0C0C0;
+      padding: .5%;
+      margin-top: 2%;
+      text-align: center;
+    }
+
+    footer h4{
+      margin-left: 3%;
+    }
+
+    a.contact-link {
+      font-weight: bold;
+      color: #333333;
+    }
+
+    footer a:hover {
+      color: black;
     }
   }
 
@@ -240,9 +240,7 @@
 
     a.contact-link {
       font-weight: bold;
-      margin-left: -1%;
       color: #333333;
-      margin-right: -.5%;
     }
 
     footer a:hover {
