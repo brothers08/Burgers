@@ -36,11 +36,9 @@
     /* Hide the images by default */
     .mySlides {
         display: none;
-        width: 100%;
-        height: 675px;
     }
     
-    /* Fading animation */
+    /* Fading animation 
     .fade {
         -webkit-animation-name: fade;
         -webkit-animation-duration: 1.5s;
@@ -56,7 +54,7 @@
     @keyframes fade {
         from {opacity: .3} 
         to {opacity: 1}
-    }
+    } */
   
     /* Header */
     .top {
