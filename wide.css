@@ -19,9 +19,19 @@
     /* Slideshow container */
     .slideshow-container {
         position: relative;
-        height: 5%;
-        width: 90%;
     }
+    
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+    
+    .top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
     
     /* Hide the images by default */
     .mySlides {
