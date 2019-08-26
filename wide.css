@@ -32,7 +32,7 @@
     .top-right-menu {
         position: absolute;
         top: 8px;
-        right: 70px;
+        margin-left: 20%;
         color: white;
 }
     .top-right-res {
