@@ -23,13 +23,13 @@
         margin-top: -2%;
     }
     
-    .menu-Button {
-        position: absolute;
-        top: 40px;
-        margin-left: 20%;
-        color: white;
-        border: solid white 3px;
-    }
+    /* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
     
     .top-left {
         position: absolute;
