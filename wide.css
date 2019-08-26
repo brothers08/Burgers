@@ -187,10 +187,10 @@
 
 @media screen and (max-width: 1280px){
     .links {
-        padding-right: 0%;
+        padding-right: 5%;
     }
     
     .menu-link {
-        margin-left: -5%;
+        margin-left: -15%;
     }
 }
