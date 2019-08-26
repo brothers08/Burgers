@@ -31,18 +31,20 @@
     
     .top-right-menu {
         position: absolute;
-        padding-left: 20%;
-        padding-right: 5%;
+        top: 8px;
+        right: 100px;
         color: white;
 }
     .top-right-res {
         position: absolute;
-        padding-right: 5%;
+        top: 8px;
+        right: 70px;
         color: white;
 }
     .top-right-contact {
         position: absolute;
-        padding-right: 5%;
+        top: 8px;
+        right: 50px;
         color:white;
 }
     
