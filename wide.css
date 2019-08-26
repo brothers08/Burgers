@@ -1,4 +1,4 @@
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1281px){
     html, body {
       height: 100%;
       font-family: boomer;
@@ -186,4 +186,4 @@
     }
   }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1280px){
