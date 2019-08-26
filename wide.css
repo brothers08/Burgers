@@ -187,3 +187,7 @@
   }
 
 @media screen and (max-width: 1280px){
+    .menu-links {
+        padding-right: 0%;
+    }
+}
