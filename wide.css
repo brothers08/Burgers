@@ -178,7 +178,6 @@
     a.contact-link {
       font-weight: bold;
       color: #333333;
-      margin-right: -0.5%;
     }
 
     footer a:hover {
@@ -189,6 +188,10 @@
 @media screen and (max-width: 1280px){
     .top {
        padding: 1%;
+    }
+    
+    .slideshow-container {
+        height: 25%;
     }
     
     .links {
