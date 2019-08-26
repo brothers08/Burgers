@@ -29,7 +29,8 @@
         top: 40%;
         left: 25%;
         transform: translate(-50%, -50%);
-        border: solid white 8px;
+        color:#808080;
+        border: solid #808080 8px;
         font-size: 200%;
         text-align: center;
         padding-right: 3%;
