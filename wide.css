@@ -193,4 +193,75 @@
     .menu-link {
         margin-left: -15%;
     }
+    
+    /* Images and Text */
+    .home-image1 {
+      content: url("images/garlicfries.jpg");
+      visibility: hidden;
+      width: 30%;
+      margin-top: -5%;
+      margin-left: 5%;
+      float: left;
+    }
+    
+    .column {
+      background-color: #469C46;
+      padding: 4%;
+      margin-top: 10%;
+      font-size: 123%;
+      font-weight: lighter;
+      margin-right: 3%;
+    }
+
+    .home-image2 {
+      margin-top: 15%;
+      margin-right: 3%;
+    }
+
+    .column2 {
+      background-color: #469C9C;
+      padding: 3%;
+      margin-top: 19%;
+      font-size: 120%;
+      font-weight: lighter;
+      margin-left: 5%;
+    }
+
+    footer {
+      background-color: #C0C0C0;
+      padding: .5%;
+      margin-top: 2%;
+    }
+
+    footer h4{
+      margin-left: 3%;
+    }
+
+    a.contact-link {
+      font-weight: bold;
+      margin-left: -1%;
+      color: #333333;
+      margin-right: -.5%;
+    }
+
+    footer a:hover {
+      color: black;
+    }
+
+    /* Bottom Menu */
+    .bottom-menu {
+      clear: both;
+      margin-top: 8%;
+      text-align: center;
+    }
+
+    .bottom-menu a {
+      background-color: rgb(224,47,47);
+      width: 10%;
+      padding: 1%;
+    }
+
+    .bottom-menu a:hover {
+      font-size: 110%;
+    }
 }
