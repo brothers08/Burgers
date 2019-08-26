@@ -26,21 +26,25 @@
         position: absolute;
         top: 8px;
         left: 16px;
+        color: white;
     }
     
     .top-right-menu {
   position: absolute;
   top: 8px;
-  right: 30px;
+  right: 100px;
+        color: white;
 }
         .top-right-res {
   position: absolute;
   top: 8px;
   right: 16px;
+            color: white;
 }
         .top-right-contact {
   position: absolute;
   top: 8px;
+            color: white;
   right: 10px;
 }
     
