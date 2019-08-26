@@ -19,6 +19,7 @@
     /* Slideshow container */
     .slideshow-container {
         position: relative;
+        color: white;
     }
     
     .top-left {
