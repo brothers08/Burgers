@@ -23,6 +23,10 @@
         margin-top: -2%;
     }
     
+    .slideshow-container img {
+        height: 10%;
+    }
+    
     .top-left {
         position: absolute;
         top: 8px;
