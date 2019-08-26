@@ -187,6 +187,10 @@
   }
 
 @media screen and (max-width: 1280px){
+    .top {
+       padding-bottom: 0.5%;
+    }
+    
     .links {
         padding-right: 7%;
     }
@@ -225,7 +229,7 @@
     }
 
     .home-image2 {
-      margin-top: 17%;
+      margin-top: 18%;
       margin-right: 3%;
     }
 
