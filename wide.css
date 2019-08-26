@@ -23,9 +23,10 @@
         margin-top: -2%;
     }
     
-    .slideshow-container img {
+    /*.slideshow-container img {
         height: 5%;
-    }
+        width:100%;
+    } */
     
     .top-left {
         position: absolute;
