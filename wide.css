@@ -188,7 +188,7 @@
 
 @media screen and (max-width: 1280px){
     .links {
-        padding-right: 5%;
+        padding-right: 7%;
     }
     
     .menu-link {
@@ -225,7 +225,7 @@
     }
 
     .home-image2 {
-      margin-top: 25%;
+      margin-top: 18%;
       margin-right: 3%;
     }
 
@@ -242,7 +242,7 @@
       background-color: #C0C0C0;
       margin-top: 2%;
       text-align: left;
-      padding: 5%;
+      padding: 3%;
     }
 
     footer h4{
