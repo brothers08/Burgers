@@ -178,7 +178,8 @@
     a.contact-link {
       font-weight: bold;
       color: #333333;
-      margin-right: -10%;
+      margin-right: -1%;
+      margin-left: -2%;
     }
 
     footer a:hover {
@@ -207,7 +208,7 @@
     .first-text {
       text-align: center;
       padding: 1%;
-      margin-top: 40%;
+      margin-top: 25%;
     }
 
     .first-text h1 {
