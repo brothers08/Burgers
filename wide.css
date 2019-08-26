@@ -133,7 +133,7 @@
     }
 
     .home-image2 {
-      margin-top: 15%;
+      margin-top: 16%;
       margin-right: 3%;
     }
 
@@ -204,11 +204,47 @@
         margin-left: -10%;
     }
     
+      a {
+      font-weight: lighter;
+      text-decoration: none;
+      color: black;
+      padding: 1%;
+      padding-bottom: .5%;
+    }
+  
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:visited {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:hover {
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+
+    .menu-link a:hover {
+      color: rgb(224,47,47);
+    }
+
+    .form-link a:hover {
+      color: #469C46;
+    }
+
+    .contact a:hover {
+      color: #469C9C;
+    }
+    
     /*First Paragraph Beneath Slideshow*/
     .first-text {
       text-align: center;
       padding: 1%;
-      margin-top: 25%;
+      margin-top: 30%;
     }
 
     .first-text h1 {
