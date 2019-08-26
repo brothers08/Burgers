@@ -20,7 +20,7 @@
     .slideshow-container {
         position: relative;
         color: white;
-        margin-top: -10%;
+        margin-top: -20%;
     }
     
     .top-left {
@@ -33,13 +33,13 @@
     .top-right-menu {
         position: absolute;
         top: 8px;
-        margin-left: 60%;
+        margin-left: 70%;
         color: white;
 }
     .top-right-res {
         position: absolute;
         top: 8px;
-        right: 30px;
+        right: 80%;
         color: white;
 }
     .top-right-contact {
