@@ -180,14 +180,17 @@
       padding: 1%;
     }
 
-
     .bottom-menu a:hover {
       font-size: 110%;
     }
   }
 
 @media screen and (max-width: 1280px){
-    .menu-link {
+    .links {
         padding-right: 0%;
+    }
+    
+    .menu-link {
+        margin-left: -5%;
     }
 }
