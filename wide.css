@@ -28,10 +28,10 @@
         left: 16px;
     }
     
-    .top-right {
+    .top-right-menu {
   position: absolute;
   top: 8px;
-  right: 16px;
+  right: 30px;
 }
     
     /* Hide the images by default */
