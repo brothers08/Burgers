@@ -33,6 +33,16 @@
   top: 8px;
   right: 30px;
 }
+        .top-right-res {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+        .top-right-contact {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
     
     /* Hide the images by default */
     .mySlides {
