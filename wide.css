@@ -33,19 +33,19 @@
     .top-right-menu {
         position: absolute;
         top: 8px;
-        margin-left: 70%;
+        margin-left: 65%;
         color: white;
 }
     .top-right-res {
         position: absolute;
         top: 8px;
-        margin-left: 80%;
+        margin-left: 75%;
         color: white;
 }
     .top-right-contact {
         position: absolute;
         top: 8px;
-        right: 20px;
+        margin-left: 83%;
         color:white;
 }
     
