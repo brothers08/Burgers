@@ -32,13 +32,13 @@
     .top-right-menu {
   position: absolute;
   top: 8px;
-  right: 100px;
+  right: 2px;
         color: white;
 }
         .top-right-res {
   position: absolute;
   top: 8px;
-  right: 16px;
+  right: 20px;
             color: white;
 }
         .top-right-contact {
