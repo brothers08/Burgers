@@ -204,14 +204,6 @@
         margin-left: -10%;
     }
     
-      a {
-      font-weight: lighter;
-      text-decoration: none;
-      color: black;
-      padding: 1%;
-      padding-bottom: .5%;
-    }
-  
     a:link {
       text-decoration: none;
       color: black;
@@ -271,7 +263,7 @@
     }
 
     .home-image2 {
-      margin-top: 15%;
+      margin-top: 16%;
       margin-right: 3%;
     }
 
