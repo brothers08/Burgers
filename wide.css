@@ -19,7 +19,7 @@
     /* Slideshow container */
     .slideshow-container {
         position: relative;
-        color: #989898;
+        color: 	#A0A0A0;
         margin-top: -2%;
     }
     
@@ -29,8 +29,8 @@
         top: 40%;
         left: 25%;
         transform: translate(-50%, -50%);
-        color: #989898;
-        border: solid #989898 8px;
+        color: 	#A0A0A0;
+        border: solid 	#A0A0A0 8px;
         font-size: 200%;
         text-align: center;
         padding-right: 3%;
@@ -61,28 +61,7 @@
         margin-left: 55%;
 }
     
-    /* Hide the images by default */
-    .mySlides {
-        display: none;
-    }
-    
-    /* Fading animation 
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-    
-    @-webkit-keyframes fade {
-        from {opacity: .3} 
-        to {opacity: 1}
-    }
-    
-    @keyframes fade {
-        from {opacity: .3} 
-        to {opacity: 1}
-    } */
+ 
   
     /* Header */
     .top {
