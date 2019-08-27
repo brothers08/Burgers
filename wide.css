@@ -185,22 +185,12 @@
   }
 
 @media screen and (max-width: 1280px){
-    .top {
-       padding: 0.6%;
-    }
+
     
     .slideshow-container {
         height: 28%;
     }
-    
-    .links {
-        padding-right: 7%;
-    }
-    
-    .menu-link {
-        margin-left: -10%;
-    }
-    
+
     a:link {
       text-decoration: none;
       color: black;
@@ -215,18 +205,6 @@
       text-decoration: none;
       color: black;
       cursor: pointer;
-    }
-
-    .menu-link a:hover {
-      color: rgb(224,47,47);
-    }
-
-    .form-link a:hover {
-      color: #469C46;
-    }
-
-    .contact a:hover {
-      color: #469C9C;
     }
     
     /*First Paragraph Beneath Slideshow*/
