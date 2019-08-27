@@ -29,7 +29,7 @@
         top: 40%;
         left: 25%;
         transform: translate(-50%, -50%);
-        color: rgb(224,47,47);
+        color: black;
         border: solid black 8px;
         font-size: 200%;
         text-align: center;
@@ -120,7 +120,7 @@
     }
     
     .column {
-      background-color: #469C46;
+      background-color: #d9ffb3;
       padding: 4%;
       margin-top: 10%;
       font-size: 123%;
@@ -134,7 +134,7 @@
     }
 
     .column2 {
-      background-color: #469C9C;
+      background-color: rgb(224,47,47);
       padding: 3%;
       margin-top: 19%;
       font-size: 120%;
