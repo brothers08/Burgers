@@ -161,7 +161,7 @@
 
     /*footer*/
     footer {
-      background-color: #C0C0C0;
+      background-color: #d9ffb3;
       margin-top: 2%;
       text-align: left;
       padding: 1%;
@@ -173,7 +173,7 @@
 
     a.contact-link {
       font-weight: bold;
-      color: #333333;
+      color: black;
       margin-right: -0.5%;
       margin-left: -1%;
     }
