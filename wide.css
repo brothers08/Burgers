@@ -19,7 +19,7 @@
     /* Slideshow container */
     .slideshow-container {
         position: relative;
-        color: 	#A0A0A0;
+        color: 	#B0B0B0;
         margin-top: -2%;
     }
     
@@ -29,8 +29,8 @@
         top: 40%;
         left: 25%;
         transform: translate(-50%, -50%);
-        color: 	#A0A0A0;
-        border: solid 	#A0A0A0 8px;
+        color: 	#B0B0B0;
+        border: solid #B0B0B0 8px;
         font-size: 200%;
         text-align: center;
         padding-right: 3%;
@@ -60,27 +60,7 @@
         top: 8px;
         margin-left: 55%;
 }
-    
- 
-  
-    /* Header */
-    .top {
-      margin-top: .5%;
-    }
 
-    .top h3 {
-      display: inline;
-      font-size: 145%;
-    }
-  
-    .name {
-      padding-right: 40%;
-      padding-left: 2%;
-    }
-      
-    .links {
-      padding-right: 5%
-    }
     
     /*First Paragraph Beneath Slideshow*/
     .first-text {
@@ -95,24 +75,20 @@
     a {
       font-weight: lighter;
       text-decoration: none;
-      color: black;
       padding: 1%;
       padding-bottom: .5%;
     }
   
     a:link {
       text-decoration: none;
-      color: black;
     }
   
     a:visited {
       text-decoration: none;
-      color: black;
     }
   
     a:hover {
       text-decoration: none;
-      color: black;
       cursor: pointer;
     }
 
