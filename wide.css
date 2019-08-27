@@ -150,18 +150,19 @@
     }
 
     .bottom-menu a {
-      background-color: rgb(224,47,47);
+      background-color: #d9ffb3;
       width: 10%;
       padding: 1%;
     }
 
     .bottom-menu a:hover {
       font-size: 110%;
+        color: black;
     }
 
     /*footer*/
     footer {
-      background-color: #d9ffb3;
+      background-color: #606060;
       margin-top: 2%;
       text-align: left;
       padding: 1%;
