@@ -43,26 +43,22 @@
         position: absolute;
         top: 8px;
         left: 16px;
-        color: white;
     }
     
     .top-right-menu {
         position: absolute;
         top: 8px;
         margin-left: 30%;
-        color: white;
 }
     .top-right-res {
         position: absolute;
         top: 8px;
         margin-left: 40%;
-        color: white;
 }
     .top-right-contact {
         position: absolute;
         top: 8px;
         margin-left: 55%;
-        color:white;
 }
     
     /* Hide the images by default */
