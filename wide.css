@@ -19,7 +19,7 @@
     /* Slideshow container */
     .slideshow-container {
         position: relative;
-        color: rgb(224,47,47);
+        color: black;
         margin-top: -2%;
     }
     
@@ -30,7 +30,7 @@
         left: 25%;
         transform: translate(-50%, -50%);
         color: rgb(224,47,47);
-        border: solid rgb(224,47,47) 8px;
+        border: solid black 8px;
         font-size: 200%;
         text-align: center;
         padding-right: 3%;
@@ -92,7 +92,7 @@
     a:hover {
       text-decoration: none;
       cursor: pointer;
-      color: #B0B0B0;
+      color: rgb(224,47,47);
     }
 
     .menu-link a:hover {
