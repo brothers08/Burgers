@@ -66,27 +66,28 @@
     .first-text {
       text-align: center;
       padding: 1%;
-      color: rgb(224,47,47);
+      color: black;
     }
     
     .first-text h1 {
-        color: black;
+        color: rgb(224,47,47);
     }
     
     a {
       text-decoration: none;
       padding: 1%;
       padding-bottom: .5%;
+      color: black;
     }
   
     a:link {
       text-decoration: none;
-        color: rgb(224,47,47);
+      color: black;
     }
   
     a:visited {
       text-decoration: none;
-      color: rgb(224,47,47);
+      color: black;
     }
   
     a:hover {
