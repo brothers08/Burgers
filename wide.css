@@ -66,12 +66,13 @@
     .first-text {
       text-align: center;
       padding: 1%;
-    }
-
-    .first-text h1 {
       color: rgb(224,47,47);
     }
- 
+    
+    .first-text h1 {
+        color: black;
+    }
+    
     a {
       text-decoration: none;
       padding: 1%;
