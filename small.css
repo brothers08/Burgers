@@ -34,15 +34,13 @@
   }
       
   .homeImage {
-    visibility: visible;
-    display: block;
-    position: relative;
-    height: 10%;
+   display: none;
   }
   
   /*Container*/
    .slideshow-container {
       position: relative;
+     height: 10%;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
