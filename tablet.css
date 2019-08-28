@@ -39,7 +39,7 @@
         position: absolute;
         margin-top: 2.5%;
         left: 16px;
-        margin-right: -20%;
+        margin-right: -50%;
     }
     
     .top-right-menu {
@@ -141,6 +141,7 @@
       font-weight: lighter;
       margin-left: 2%;
       text-align: center;
+      display: inline-block;
     }
 
   
