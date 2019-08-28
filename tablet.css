@@ -44,17 +44,17 @@
     .top-right-menu {
         position: absolute;
         top: 18px;
-        left: 25px;
+        left: 20px;
 }
     .top-right-res {
         position: absolute;
         top: 18px;
-        left: 30px;
+        left: 25px;
 }
     .top-right-contact {
         position: absolute;
         top: 18px;
-        left: 50px;
+        left: 41px;
 }
     
     .menuBarButton, .smallTitle, .menuBar {
@@ -170,7 +170,7 @@
   /* Bottom Menu */
   .bottom-menu {
     clear: both;
-    margin-top: 15%;
+    margin-top: 25%;
     text-align: center;
   }
 
