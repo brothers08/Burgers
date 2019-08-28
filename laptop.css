@@ -5,6 +5,28 @@
         margin-top: -2%;
     }
     
+     .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+    
+    .top-right-menu {
+        position: absolute;
+        top: 8px;
+        margin-left: 30%;
+}
+    .top-right-res {
+        position: absolute;
+        top: 8px;
+        margin-left: 40%;
+}
+    .top-right-contact {
+        position: absolute;
+        top: 8px;
+        margin-left: 55%;
+}
+    
     .menuBarButton, .smallTitle, .menuBar {
         display: none;
     }
