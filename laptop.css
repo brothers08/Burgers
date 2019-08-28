@@ -22,6 +22,7 @@
     
      .top-left {
         position: absolute;
+        top: 5px;
         left: 16px;
     }
     
@@ -156,13 +157,11 @@
     a.contact-link {
       font-weight: bold;
       color: #333333;
-      margin-right: 0.5%;
+      margin-right: -0.5%;
     }
 
     footer a:hover {
       color: black;
     }
-
-
 }
 
