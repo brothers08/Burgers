@@ -22,7 +22,7 @@
     
      .top-left {
         position: absolute;
-        top: 5px;
+        mergin-top: 3%;
         left: 16px;
     }
     
@@ -158,6 +158,7 @@
       font-weight: bold;
       color: #333333;
       margin-right: -0.5%;
+      margin-left: -1%;
     }
 
     footer a:hover {
