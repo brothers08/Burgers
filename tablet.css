@@ -44,17 +44,17 @@
     .top-right-menu {
         position: absolute;
         top: 18px;
-        margin-left: 30%;
+        margin-left: 10%;
 }
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-left: 25%;
+        margin-left: 15%;
 }
     .top-right-contact {
         position: absolute;
         top: 18px;
-        margin-left: 55%;
+        margin-left: 20%;
 }
     
     .menuBarButton, .smallTitle, .menuBar {
@@ -120,7 +120,7 @@
     
     .column {
       background-color: #d9ffb3;
-      padding: 2%;
+      padding: 3%;
       margin-top: 10%;
       font-size: 110%;
       font-weight: lighter;
@@ -136,7 +136,7 @@
       background-color: rgb(224,47,47);
       padding: 3%;
       margin-top: 16%;
-      font-size: 120%;
+      font-size: 110%;
       font-weight: lighter;
       margin-left: 5%;
     }
@@ -172,12 +172,13 @@
   }
 
   .bottom-menu a {
-    background-color: #469C46;
+    background-color: #d9ffb3;
     width: 10%;
     padding: 1%;
   }
 
   .bottom-menu a:hover {
     font-size: 110%;
+    color: black;
   }
 } 
