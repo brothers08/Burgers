@@ -48,7 +48,7 @@
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-left: 35%;
+        margin-left: 31%;
 }
     .top-right-contact {
         position: absolute;
@@ -118,10 +118,10 @@
     }
     
     .column {
-      background-color: #469C46;
-      padding: 4%;
+      background-color: #d9ffb3;
+      padding: 2%;
       margin-top: 10%;
-      font-size: 123%;
+      font-size: 110%;
       font-weight: lighter;
       margin-right: 3%;
     }
@@ -132,7 +132,7 @@
     }
 
     .column2 {
-      background-color: #469C9C;
+      background-color: rgb(224,47,47);
       padding: 3%;
       margin-top: 16%;
       font-size: 120%;
