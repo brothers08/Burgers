@@ -22,7 +22,6 @@
     
      .top-left {
         position: absolute;
-        top: 10px;
         left: 16px;
     }
     
@@ -66,7 +65,7 @@
     .first-text {
       text-align: center;
       padding: 1%;
-      margin-top: 5%;
+      margin-top: 2%;
     }
 
     .first-text h1 {
