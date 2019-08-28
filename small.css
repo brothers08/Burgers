@@ -33,15 +33,14 @@
       padding-right: 10%;
   }
       
-  .hideNav{
-    display: none;
+  .homeImage {
+    position: relative;
+    height: 10%;
   }
   
   /*Container*/
    .slideshow-container {
-        position: relative;
-        width: 100%;
-        height: auto;
+      display: none;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
