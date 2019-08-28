@@ -13,6 +13,7 @@
         font-weight: normal;
       }
 
+   /*Container*/
    .slideshow-container {
         position: relative;
         color: black;
@@ -48,7 +49,7 @@
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-left: 31%;
+        margin-left: 25%;
 }
     .top-right-contact {
         position: absolute;
