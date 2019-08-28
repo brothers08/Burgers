@@ -26,8 +26,8 @@
     /* Centered text */
     .centered {
         position: absolute;
-        top: 40%;
-        left: 25%;
+        top: 70%;
+        left: 35%;
         transform: translate(-50%, -50%);
         color: black;
         border: solid black 8px;
