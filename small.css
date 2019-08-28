@@ -41,6 +41,7 @@
    .slideshow-container {
         position: relative;
         width: 100%;
+        height: auto;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
