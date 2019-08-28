@@ -30,7 +30,7 @@
   .smallTitle{
     display: block;
     text- align: center;
-      padding-right: 10%;
+    padding-right: 10%;
   }
       
   .homeImage {
@@ -39,8 +39,9 @@
   
   /*Container*/
    .slideshow-container {
-     position: relative;
-     height: 50px;
+     position: absolute;
+     max-height: 5px;
+     width: 100%;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
