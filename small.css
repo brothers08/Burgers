@@ -42,7 +42,7 @@
   
   /*Container*/
    .slideshow-container {
-      display: none;
+      position: relative;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
