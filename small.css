@@ -40,8 +40,7 @@
   /*Container*/
    .slideshow-container {
         position: relative;
-        color: black;
-        margin-top: -2%;
+        width: 100%;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
