@@ -33,15 +33,16 @@
     padding-right: 10%;
   }
       
-  .homeImage {
-   display: none;
-  }
-  
   /*Container*/
    .slideshow-container {
-     position: absolute;
-     max-height: 5px;
-     width: 100%;
+     display: none;
+  }
+  
+  img .slideshow-container {
+    visibility: visible;
+    position: absolute;
+    max-height: 5px;
+    width: 100%;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
