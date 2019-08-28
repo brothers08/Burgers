@@ -48,7 +48,7 @@
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-left: 40%;
+        margin-left: 35%;
 }
     .top-right-contact {
         position: absolute;
@@ -106,6 +106,40 @@
     .first-text h1 {
       color: rgb(224,47,47);
     }
+    
+    /* Images and Text */
+    .home-image1 {
+      content: url("images/garlicfries.jpg");
+      visibility: hidden;
+      width: 30%;
+      margin-top: -5%;
+      margin-left: 5%;
+      float: left;
+    }
+    
+    .column {
+      background-color: #469C46;
+      padding: 4%;
+      margin-top: 10%;
+      font-size: 123%;
+      font-weight: lighter;
+      margin-right: 3%;
+    }
+
+    .home-image2 {
+      margin-top: 14.5%;
+      margin-right: 3%;
+    }
+
+    .column2 {
+      background-color: #469C9C;
+      padding: 3%;
+      margin-top: 16%;
+      font-size: 120%;
+      font-weight: lighter;
+      margin-left: 5%;
+    }
+
   
     /*Footer*/
   footer {
