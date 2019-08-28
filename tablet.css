@@ -39,6 +39,7 @@
         position: absolute;
         margin-top: 2.5%;
         left: 16px;
+        margin-right: -20%;
     }
     
     .top-right-menu {
@@ -49,7 +50,7 @@
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-right: 15%;
+        margin-right: 20%;
 }
     .top-right-contact {
         position: absolute;
@@ -139,6 +140,7 @@
       font-size: 110%;
       font-weight: lighter;
       margin-left: 2%;
+      text-align: center;
     }
 
   
