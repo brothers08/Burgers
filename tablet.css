@@ -45,17 +45,17 @@
     .top-right-menu {
         position: absolute;
         top: 18px;
-        margin-right: 20%;
+        left: 30px;
 }
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-right: 20%;
+        left: 35px;
 }
     .top-right-contact {
         position: absolute;
         top: 18px;
-        margin-right: 10%;
+        left: 40px;
 }
     
     .menuBarButton, .smallTitle, .menuBar {
@@ -141,7 +141,8 @@
       font-weight: lighter;
       margin-left: 2%;
       text-align: center;
-      display: inline-block;
+      position: absolute;
+      right: 30px;
     }
 
   
