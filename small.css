@@ -40,7 +40,7 @@
   /*Container*/
    .slideshow-container {
      position: relative;
-     height: auto;
+     height: 50px;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
