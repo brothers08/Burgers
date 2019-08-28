@@ -44,17 +44,17 @@
     .top-right-menu {
         position: absolute;
         top: 18px;
-        left: 30px;
+        left: 25px;
 }
     .top-right-res {
         position: absolute;
         top: 18px;
-        left: 35px;
+        left: 30px;
 }
     .top-right-contact {
         position: absolute;
         top: 18px;
-        left: 45px;
+        left: 50px;
 }
     
     .menuBarButton, .smallTitle, .menuBar {
@@ -128,7 +128,7 @@
     }
 
     .home-image2 {
-      margin-top: 14.5%;
+      margin-top: 12%;
       margin-right: 3%;
     }
 
