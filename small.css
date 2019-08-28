@@ -36,6 +36,18 @@
   .hideNav{
     display: none;
   }
+  
+  /*Container*/
+   .slideshow-container {
+        position: relative;
+        color: black;
+        margin-top: -2%;
+  }
+  
+  .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
+    display: none;
+  }
+  
   a {
     font-weight: normal;
     text-decoration: none;
