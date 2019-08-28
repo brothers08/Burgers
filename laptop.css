@@ -1,8 +1,10 @@
 @media screen and (max-width: 1280px){
-
-    
     .slideshow-container {
         height: 28%;
+    }
+    
+    .menuBarButton, .smallTitle, .menuBar {
+        display: none;
     }
 
     a:link {
