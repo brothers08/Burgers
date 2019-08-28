@@ -39,8 +39,8 @@
   
   /*Container*/
    .slideshow-container {
-      position: relative;
-     height: 10%;
+     position: relative;
+     height: auto;
   }
   
   .top-left, .top-right-menu, .top-right-res, .top-right-contact, .centered {
