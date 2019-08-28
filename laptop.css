@@ -23,6 +23,22 @@
       cursor: pointer;
     }
     
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: black;
+        border: solid black 8px;
+        font-size: 200%;
+        text-align: center;
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    
     /*First Paragraph Beneath Slideshow*/
     .first-text {
       text-align: center;
