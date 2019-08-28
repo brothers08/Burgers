@@ -22,7 +22,7 @@
     
      .top-left {
         position: absolute;
-        margin-top: 15%;
+        margin-top: 5%;
         left: 16px;
     }
     
@@ -141,6 +141,7 @@
 
     .bottom-menu a:hover {
       font-size: 110%;
+      color: black;
     }
     
     footer {
