@@ -44,17 +44,17 @@
     .top-right-menu {
         position: absolute;
         top: 18px;
-        margin-left: %;
+        margin-right: 20%;
 }
     .top-right-res {
         position: absolute;
         top: 18px;
-        margin-left: 5%;
+        margin-right: 15%;
 }
     .top-right-contact {
         position: absolute;
         top: 18px;
-        margin-left: 10%;
+        margin-right: 10%;
 }
     
     .menuBarButton, .smallTitle, .menuBar {
@@ -134,7 +134,7 @@
 
     .column2 {
       background-color: rgb(224,47,47);
-      padding: 3%;
+      padding: 1.5%;
       margin-top: 16%;
       font-size: 110%;
       font-weight: lighter;
