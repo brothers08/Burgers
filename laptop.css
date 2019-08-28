@@ -1,6 +1,8 @@
 @media screen and (max-width: 1280px){
     .slideshow-container {
-        height: 28%;
+        position: relative;
+        color: black;
+        margin-top: -2%;
     }
     
     .menuBarButton, .smallTitle, .menuBar {
