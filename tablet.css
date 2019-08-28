@@ -1,1 +1,148 @@
+@media screen and (max-width: 1024px){
+    html, body {
+        height: 100%;
+        font-family: boomer;
+        font-weight: bolder;
+        margin: auto;
+        text-align: center;
+    }
 
+    @font-face {
+        font-family: boomer;
+        src: url(boomer.ttf);
+        font-weight: normal;
+      }
+
+   .slideshow-container {
+        position: relative;
+        color: black;
+        margin-top: -2%;
+    }
+    
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        color: black;
+        border: solid black 8px;
+        font-size: 200%;
+        text-align: center;
+        padding-right: 3%;
+        padding-left: 3%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+    
+     .top-left {
+        position: absolute;
+        margin-top: 2.5%;
+        left: 16px;
+    }
+    
+    .top-right-menu {
+        position: absolute;
+        top: 18px;
+        margin-left: 30%;
+}
+    .top-right-res {
+        position: absolute;
+        top: 18px;
+        margin-left: 40%;
+}
+    .top-right-contact {
+        position: absolute;
+        top: 18px;
+        margin-left: 55%;
+}
+    
+    .menuBarButton, .smallTitle, .menuBar {
+        display: none;
+    }
+
+    a {
+      text-decoration: none;
+      padding: 1%;
+      padding-bottom: .5%;
+      color: black;
+    }
+  
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:visited {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:hover {
+      text-decoration: none;
+      cursor: pointer;
+      color: rgb(224,47,47);
+    }
+
+    .menu-link a:hover {
+      color: rgb(224,47,47);
+    }
+
+    .form-link a:hover {
+      color: #469C46;
+    }
+
+    .contact a:hover {
+      color: #469C9C;
+    }
+
+    
+    /*First Paragraph Beneath Slideshow*/
+    .first-text {
+      text-align: center;
+      padding: 1%;
+      margin-top: 2%;
+    }
+
+    .first-text h1 {
+      color: rgb(224,47,47);
+    }
+  
+    /*Footer*/
+  footer {
+    background-color: #C0C0C0;
+    padding: .5%;
+    margin-top: 2%;
+  }
+
+  footer h4{
+    margin-left: 3%;
+  }
+
+  a.contact-link {
+    font-weight: bold;
+    margin-left: -1%;
+    color: #333333;
+    margin-right: -.5%;
+  }
+
+  footer a:hover {
+    color: black;
+  }
+
+  /* Bottom Menu */
+  .bottom-menu {
+    clear: both;
+    margin-top: 8%;
+    text-align: center;
+  }
+
+  .bottom-menu a {
+    background-color: #469C46;
+    width: 10%;
+    padding: 1%;
+  }
+
+  .bottom-menu a:hover {
+    font-size: 110%;
+  }
+} 
