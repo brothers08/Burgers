@@ -38,7 +38,7 @@
      display: none;
   }
   
-  img .slideshow-container {
+  .homeImage {
     visibility: visible;
     position: absolute;
     max-height: 5px;
