@@ -5,7 +5,7 @@ let menuBar = document.getElementById('menu-bar');
 /* Hide Menu Bar when window is resized */
 $(window).resize(function() {
 
-  if ($(this).width() > 451) {
+  if ($(this).width() > 640) {
 
     $(menuBar).hide();
 
